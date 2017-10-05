@@ -1,0 +1,78 @@
+{
+   "name":"renita mendonca",
+   "job_title":"Frontend developer",
+   "Contact":{
+
+   },
+   "email":"renni.mendonca@gmail.com",
+   "phone":"603-260-9708",
+   "about_me":{
+      "desc":"A highly motivated developer with more than 3+ years of experience in Web Programming. With a strong technical skill-set, I am looking for a career growth to elevate user experience to the next level.",
+      "resume":"/profile/includes/Resume.docx"
+   },
+   "job_history":[
+      {
+         "company":"Pannos Marketing",
+         "job_title":"Frontend Developer",
+         "duration":"Feb 2014 - Present",
+         "work_profile":"Built responsive websites, Custom integrated web templates base on client requirements, Quality Assurance of web projects, Maintained existing websites through regular workflow and support management"
+      },
+      {
+         "company":"Pannos Marketing",
+         "job_title":"Internship",
+         "duration":"Jan 2014 - Feb 2014",
+         "work_profile":"Built Landing pages, Event Tracking and Quality Assurance, Deployment of content to webites"
+      }
+   ],
+   "education_history":[
+      {
+         "edu_title":"Student",
+         "university":"Southern New Hampshire University",
+         "degree":"Bachelors Degree in Science",
+         "duration":"June 2014 - May 2017",
+         "desc":"Learnt Objectives of Web Development, Business Planning and Portfolio Management, Business Planning System Design and Integration"
+      },
+      {
+         "edu_title":"Student",
+         "university":"Manchester Community College",
+         "degree":"Associates Degree in Computer Science",
+         "duration":"Jan 2011 - May 2014",
+         "desc":"Learnt Object Oriented Concepts, Database Management & setup, Using C#.Net, Java in class related projects"
+      }
+   ],
+   "project_details":[
+      {
+         "project_title":"Project 1 - Essex Bank",
+         "project_link": "https://www.essexbank.com/",
+         "project_description":"I worked on this project as a part of the team. Technologies used were - HTML5, CSS3, jquery-1.11.2, PHP for CMS. Different stages that were used for implementation are Project Management, Design/Wireframes, Programming, & Quality Assurance."
+      },
+      {
+         "project_title":"Project 2 - Melrose Bank",
+         "project_link":"https://www.melrosebank.com/",
+         "project_description":"I worked on this project as a part of the team. Technologies used were - HTML5, CSS3, jquery-1.11.2, PHP for CMS. Different stages that were used for implementation are Project Management, Design/Wireframes, Programming, & Quality Assurance. Used tool such as Monsido for ADA, SEO and Quality Assurance. "
+      },
+
+      {
+         "project_title":"Galaxy Animation",
+         "project_link":"https://rmendonca26.github.io/galaxy/",
+         "project_description":"Used technlogies - HTML5, CSS3 Animations"
+      }
+
+   ],
+   "additional_projects":[
+      {
+         "project_title_1":"First Atlantic Federal Credit Union",
+         "project_link_1": "https://www.fafcu.com/",
+         "project_title_2":"National Iron Bank",
+         "project_link_2": "https://www.ironbank.com/",
+         "project_title_3":"Gate City Bank",
+         "project_link_3": "https://www.gatecitybank.com/",
+         "project_title_4":"First Financial Federal Credit Union",
+         "project_link_4": "https://www.firstfinancial.org/",
+         "project_title_5":"Midcoast Federal Credit Union",
+         "project_link_5": "https://www.midcoastfcu.me/"
+         }
+
+   ]
+
+}

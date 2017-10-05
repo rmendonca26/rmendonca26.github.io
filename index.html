@@ -1,0 +1,88 @@
+
+<!DOCTYPE HTML>
+<html ng-app="resumeApp">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Renita Mendonca Porfolio</title>
+	<meta name="description" content="View my portfolio and learn about me">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=1.0">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Cantarell">
+    <link rel="stylesheet" href="css/animate.css"> 
+    <link rel="stylesheet" href="css/styles.css"> 
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.js"></script>
+    <script src="js/app.js"></script>
+</head>
+<body ng-controller="ResumeController">
+
+	<header role="Header">
+        <div class="intro">
+        <nav class="menu" role="navigarion">
+        	<button class="c-hamburger c-hamburger--htx"><span>toggle menu</span></button>
+        	<div class="item"><a href="#about">About Me</a>
+        	<a href="#resume">Resume</a></div>
+        </nav>
+        <img class="animated fadeInLeftBig" src="images/renita.jpg" alt="Renita Mendonca" /><h1 class="animated fadeInRightBig">{{ resume.name }}</h1><h2 class="animated fadeInLeftBig">Front End Web Developer</h2></div>
+        
+	</header>
+	
+	<section role="Main Content">
+	
+		<div class="about">
+            <div class="pad">
+            <h2 id="about">About Me</h2>
+            <p>A highly motivated developer with more than 3+ years of experience in Web Programming. With a strong technical skill-set, I am looking for a career growth to elevate user experience to the next level.</p> 
+            	<div class="contact"><h3>Contact Information</h3>
+            	<p>Email: renni.mendonca@gmail.com<br />Phone: 603-260-9708</p>
+            	</ul></div>   
+            </div>
+        </div>
+
+
+
+		<div class="resume">
+            <div class="pad">
+            	<h2 id="resume">Resume</h2>
+            	<p><a class="btn-resume" target="_blank" download="" href="includes/Resume.docx">Download Resume</a></p>
+            	<div class="item" ng-repeat = "job in resume.job_history">
+	            	<h3>{{ job.job_title }}</h3>
+	            	<h4>{{ job.company }}</h4> <p class="time">{{ job.duration }}</p>
+	            	{{job.work_profile}}
+	            </div>
+
+            	<div class="item" ng-repeat = "education in resume.education_history">
+            		<h3>{{ education.edu_title }}</h3>
+	            	<h4>{{ education.university }}</h4>
+	            	<h4>{{ education.degree }}</h4> <p class="time">{{ education.duration }}</p>
+	            	{{education.desc}}
+	            </div>
+            	<div class="item" ng-repeat = "project in resume.project_details">
+            		<h3><a target="_blank" href="{{ project.project_link }}">{{ project.project_title }}</a></h3>
+	            	{{ project.project_description }}
+	            </div>         	
+            	<div class="item" ng-repeat = "additionalproject in resume.additional_projects">
+            		<h3>Additional Projects</h3>
+	            	<p><a target="_blank" href="{{ additionalproject.project_link_1 }}">{{ additionalproject.project_title_1 }}</a></p>
+	            	<p><a target="_blank" href="{{ additionalproject.project_link_2 }}">{{ additionalproject.project_title_2 }}</a></p>
+	            	<p><a target="_blank" href="{{ additionalproject.project_link_3 }}">{{ additionalproject.project_title_3 }}</a></p>
+	            	<p><a target="_blank" href="{{ additionalproject.project_link_4 }}">{{ additionalproject.project_title_4 }}</a></p>
+	            	<p><a target="_blank" href="{{ additionalproject.project_link_5 }}">{{ additionalproject.project_title_5 }}</a></p>
+	            </div> 
+
+
+            </div>
+        </div>
+	</section>
+
+
+
+	<footer role="Footer">
+		<p class="copyright">Copyright 2017, Renita Mendonca</p>
+		<p class="social-media"><a href="https://www.linkedin.com/in/renita-mendonca-273b56102" target="_blank"><img src="images/linkedin.png" /></a></p>
+	</footer>
+<script src="js/vendor/jquery-3.2.0.min.js"></script>
+<script src="js/main.js"></script> 
+</body>
+
+</html>
+
