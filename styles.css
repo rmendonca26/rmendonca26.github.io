@@ -46,9 +46,9 @@ nav li { padding: 0; margin: 0; }
 html { color: #444444; }
 body { font-family: 'Cantarell',serif; wi}
 h1 { text-transform: uppercase; font-weight: 800; }
-.intro { 
 a { color: #3F4C6B; }
 a:hover { opacity: 0.9; }
+.intro { 
 /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#3f4c6b+0,ffffff+75 */
 background: rgb(63,76,107); /* Old browsers */
 background: -moz-linear-gradient(top, rgba(63,76,107,1) 0%, rgba(255,255,255,1) 75%); /* FF3.6-15 */
