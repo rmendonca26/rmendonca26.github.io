@@ -56,6 +56,7 @@
 	            	<h4>{{ education.degree }}</h4> <p class="time">{{ education.duration }}</p>
 	            	{{education.desc}}
 	            </div>
+                <h2>Projects</h2>
             	<div class="item" ng-repeat = "project in resume.project_details">
             		<h3><a target="_blank" href="{{ project.project_link }}">{{ project.project_title }}</a></h3>
 	            	{{ project.project_description }}
