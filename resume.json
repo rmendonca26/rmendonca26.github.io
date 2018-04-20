@@ -44,12 +44,12 @@
       {
          "project_title":"Galaxy Web VR",
          "project_link": "https://rmendonca26.github.io/web-vr-galaxy/",
-         "project_description":"Project using A-frame, a virtual reality framework from Mozilla. Check out at <a href="https://aframe.io/">https://aframe.io/</a>"
+         "project_description":"Project using A-frame, a virtual reality framework from Mozilla. Check out at <a href='https://aframe.io/'>https://aframe.io/</a>"
       },
       {
          "project_title":"Photo Slider",
          "project_link":"https://rmendonca26.github.io/photo-slider/",
-         "project_description":"Photo Gallery with transition effect. This is a responsive slider with my custom photography images. Check out my photography at <a href="https://www.instagram.com/photographybyrenn/">https://www.instagram.com/photographybyrenn</a>"
+         "project_description":"Photo Gallery with transition effect. This is a responsive slider with my custom photography images. Check out my photography at <a href='https://www.instagram.com/photographybyrenn/'>https://www.instagram.com/photographybyrenn</a>"
 
       },
       {
