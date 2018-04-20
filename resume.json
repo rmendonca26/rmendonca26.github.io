@@ -42,36 +42,20 @@
    ],
    "project_details":[
       {
-         "project_title":"Project 1 - Essex Bank",
-         "project_link": "https://www.essexbank.com/",
-         "project_description":"I worked on this project as a part of the team. Technologies used were - HTML5, CSS3, jquery-1.11.2, PHP for CMS. Different stages that were used for implementation are Project Management, Design/Wireframes, Programming, & Quality Assurance."
+         "project_title":"Galaxy Web VR",
+         "project_link": "https://rmendonca26.github.io/web-vr-galaxy/",
+         "project_description":"Project using A-frame, a virtual reality framework from Mozilla. Check out at https://aframe.io/"
       },
       {
-         "project_title":"Project 2 - Melrose Bank",
-         "project_link":"https://www.melrosebank.com/",
-         "project_description":"I worked on this project as a part of the team. Technologies used were - HTML5, CSS3, jquery-1.11.2, PHP for CMS. Different stages that were used for implementation are Project Management, Design/Wireframes, Programming, & Quality Assurance. Used tool such as Monsido for ADA, SEO and Quality Assurance. "
-      },
+         "project_title":"Photo Slider",
+         "project_link":"https://rmendonca26.github.io/photo-slider/",
+         "project_description":"Photo Gallery with transition effect. This is a responsive slider with my custom photography images. Check out my photography at https://www.instagram.com/photographybyrenn/"
 
       {
          "project_title":"Galaxy Animation",
          "project_link":"https://rmendonca26.github.io/galaxy/",
-         "project_description":"Used technlogies - HTML5, CSS3 Animations"
+         "project_description":"Cool Animation using HTML5, CSS3"
       }
-
-   ],
-   "additional_projects":[
-      {
-         "project_title_1":"First Atlantic Federal Credit Union",
-         "project_link_1": "https://www.fafcu.com/",
-         "project_title_2":"National Iron Bank",
-         "project_link_2": "https://www.ironbank.com/",
-         "project_title_3":"Gate City Bank",
-         "project_link_3": "https://www.gatecitybank.com/",
-         "project_title_4":"First Financial Federal Credit Union",
-         "project_link_4": "https://www.firstfinancial.org/",
-         "project_title_5":"Midcoast Federal Credit Union",
-         "project_link_5": "https://www.midcoastfcu.me/"
-         }
 
    ]
 
