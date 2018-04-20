@@ -1,6 +1,6 @@
 {
-   "name":"renita mendonca",
-   "job_title":"Frontend developer",
+   "name":"Renita Mendonca",
+   "job_title":"Front-End Web Developer",
    "Contact":{
 
    },
@@ -13,7 +13,7 @@
    "job_history":[
       {
          "company":"Pannos Marketing",
-         "job_title":"Frontend Developer",
+         "job_title":"Front-End Web Developer",
          "duration":"Feb 2014 - Present",
          "work_profile":"Built responsive websites, Custom integrated web templates base on client requirements, Quality Assurance of web projects, Maintained existing websites through regular workflow and support management"
       },
@@ -44,12 +44,12 @@
       {
          "project_title":"Galaxy Web VR",
          "project_link": "https://rmendonca26.github.io/web-vr-galaxy/",
-         "project_description":"Project using A-frame, a virtual reality framework from Mozilla. Check out at https://aframe.io/"
+         "project_description":"Project using A-frame, a virtual reality framework from Mozilla. Check out at <a href="https://aframe.io/">https://aframe.io/</a>"
       },
       {
          "project_title":"Photo Slider",
          "project_link":"https://rmendonca26.github.io/photo-slider/",
-         "project_description":"Photo Gallery with transition effect. This is a responsive slider with my custom photography images. Check out my photography at https://www.instagram.com/photographybyrenn/"
+         "project_description":"Photo Gallery with transition effect. This is a responsive slider with my custom photography images. Check out my photography at <a href="https://www.instagram.com/photographybyrenn/">https://www.instagram.com/photographybyrenn</a>"
 
       },
       {

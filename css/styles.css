@@ -47,6 +47,8 @@ html { color: #444444; }
 body { font-family: 'Cantarell',serif; wi}
 h1 { text-transform: uppercase; font-weight: 800; }
 .intro { 
+a { color: #3F4C6B; }
+a:hover { opacity: 0.9; }
 
 /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#3f4c6b+0,ffffff+75 */
 background: rgb(63,76,107); /* Old browsers */
